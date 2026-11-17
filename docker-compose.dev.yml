@@ -1,0 +1,17 @@
+services:
+  backend:
+    volumes:
+      - ./backend:/app
+    command:
+      - gunicorn
+      - config.wsgi:application
+      - --bind=0.0.0.0:8000
+      - --workers=2
+      - --reload
+      - --timeout=60
+      - --access-logfile=-
+      - --error-logfile=-
+
+  web:
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro

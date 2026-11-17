@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" data-brand-description content="Toshkentdagi dorivor giyohlar va tabiiy mahsulotlar axborot katalogi.">
+  <meta name="theme-color" content="#254b3c">
+  <title data-page-title="Tabiiy mahsulotlar katalogi">Tabiiy mahsulotlar katalogi</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Asosiy qismga o‘tish</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Bosh sahifa" data-brand-home>
+        <span class="brand-mark" data-brand-logo aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M25 5C10 3 4 10 7 21c8 4 19 0 18-16Z"/><path d="M6 27 21 11"/></svg></span>
+        <span data-brand-name>Do‘kon</span>
+      </a>
+      <nav class="main-nav" aria-label="Asosiy navigatsiya">
+        <a href="/index.html" data-nav="catalog">Katalog</a>
+        <a href="/favorites.html" data-nav="favorites"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4Z"/></svg>Saqlanganlar</a>
+        <a class="nav-auth" href="/login.html" id="nav-auth-link">Kirish</a>
+        <button class="nav-auth" type="button" id="logout-button" hidden>Chiqish</button>
+      </nav>
+    </div>
+  </header>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="container noscript">Katalog va saqlangan mahsulotlar bilan ishlash uchun brauzeringizda JavaScriptni yoqing.</div></noscript>
+  <main id="main" class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="tiny-leaf" aria-hidden="true">✦</span> TOSHKENT · <span data-brand-name>Do‘kon</span></p>
+        <h1 id="hero-title">Tabiatga yaqin.<br><em>Tanlovingizga mos.</em></h1>
+        <p class="hero-description">Dorivor giyohlar va tabiiy mahsulotlar haqida ma’lumot oling. Yoqtirganlaringizni bir joyga saqlang.</p>
+        <a class="button button-primary" href="#categories">Katalogni ko‘rish <span aria-hidden="true">↓</span></a>
+      </div><div class="hero-art" aria-hidden="true">
+        <div class="art-halo"></div><div class="botanical-stem"></div>
+        <i class="art-leaf leaf-1"></i><i class="art-leaf leaf-2"></i><i class="art-leaf leaf-3"></i><i class="art-leaf leaf-4"></i><i class="art-leaf leaf-5"></i><i class="art-leaf leaf-6"></i>
+        <span class="art-caption">TABIATDAN ILHOMLANIB</span>
+      </div>
+    </section>
+    <section id="categories" class="catalog-section" aria-labelledby="page-title">
+      <div class="section-heading"><div><p class="eyebrow">SIZNING TANLOVINGIZ</p><h2 id="page-title">Kategoriyalar</h2></div><span class="result-count" id="result-count"></span></div>
+      <div id="page-content" aria-live="polite"><p class="loading">Kategoriyalar yuklanmoqda…</p></div>
+    </section>
+    <aside class="catalog-note"><span class="note-symbol" aria-hidden="true">↗</span><div><h3>Yoqtirganingiz yodingizda qolsin</h3><p>Mahsulot yonidagi “Saqlash” tugmasini bosing. Tanlovlaringiz hisobingizdagi “Saqlanganlar” sahifasida bo‘ladi.</p></div><a href="/favorites.html" class="text-link">Saqlanganlar <span aria-hidden="true">→</span></a></aside>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-brand"><span data-brand-name>Do‘kon</span> <span>· Toshkent</span></span>
+    </div>
+  </footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,298 @@
+# Herbal Store boshqaruv interfeysining qo‘lda yozilgan o‘zbekcha tarjimalari.
+# Mahsulot tarjimalari faqat administrator tomonidan PostgreSQL bazasiga kiritiladi.
+msgid ""
+msgstr "Project-Id-Version: Herbal Store UZ/RU\nLanguage: uz\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Available %s"
+msgstr "Mavjud %s"
+
+msgid "This is the list of available %s. You may choose some by selecting them in the box below and then clicking the \"Choose\" arrow between the two boxes."
+msgstr "Mavjud %s ro‘yxati. Kerakli yozuvlarni belgilang va ikki maydon orasidagi «Tanlash» tugmasini bosing."
+
+msgid "Type into this box to filter down the list of available %s."
+msgstr "Mavjud %s ro‘yxatini filtrlash uchun ushbu maydonga yozing."
+
+msgid "Filter"
+msgstr "Filtrlash"
+
+msgid "Choose all"
+msgstr "Barchasini tanlash"
+
+msgid "Click to choose all %s at once."
+msgstr "Barcha %s yozuvlarini birgalikda tanlash uchun bosing."
+
+msgid "Choose"
+msgstr "Tanlash"
+
+msgid "Remove"
+msgstr "Olib tashlash"
+
+msgid "Chosen %s"
+msgstr "Tanlangan %s"
+
+msgid "This is the list of chosen %s. You may remove some by selecting them in the box below and then clicking the \"Remove\" arrow between the two boxes."
+msgstr "Tanlangan %s ro‘yxati. Yozuvlarni tanlovdan chiqarish uchun ularni belgilang va ikki maydon orasidagi «Olib tashlash» tugmasini bosing."
+
+msgid "Remove all"
+msgstr "Barchasini tanlovdan chiqarish"
+
+msgid "Click to remove all chosen %s at once."
+msgstr "Tanlangan barcha %s yozuvlarini tanlovdan chiqarish uchun bosing."
+
+msgid "You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost."
+msgstr "Ayrim maydonlardagi o‘zgarishlar saqlanmagan. Amal bajarilsa, saqlanmagan o‘zgarishlar yo‘qoladi."
+
+msgid "You have selected an action, but you haven’t saved your changes to individual fields yet. Please click OK to save. You’ll need to re-run the action."
+msgstr "Amal tanlandi, ammo maydonlardagi o‘zgarishlar saqlanmagan. Saqlash uchun «OK»ni bosing. So‘ng amalni qayta bajaring."
+
+msgid "You have selected an action, and you haven’t made any changes on individual fields. You’re probably looking for the Go button rather than the Save button."
+msgstr "Amal tanlandi, maydonlar esa o‘zgartirilmadi. Tanlangan amalni bajarish uchun «Bajarish» tugmasini bosing."
+
+msgid "Now"
+msgstr "Hozir"
+
+msgid "Midnight"
+msgstr "Yarim tun"
+
+msgid "6 a.m."
+msgstr "06:00"
+
+msgid "Noon"
+msgstr "Tush payti"
+
+msgid "6 p.m."
+msgstr "18:00"
+
+msgid "Choose a Time"
+msgstr "Vaqtni tanlang"
+
+msgid "Choose a time"
+msgstr "Vaqtni tanlang"
+
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+msgid "Today"
+msgstr "Bugun"
+
+msgid "Choose a Date"
+msgstr "Sanani tanlang"
+
+msgid "Yesterday"
+msgstr "Kecha"
+
+msgid "Tomorrow"
+msgstr "Ertaga"
+
+msgid "January"
+msgstr "Yanvar"
+
+msgid "February"
+msgstr "Fevral"
+
+msgid "March"
+msgstr "Mart"
+
+msgid "April"
+msgstr "Aprel"
+
+msgid "May"
+msgstr "May"
+
+msgid "June"
+msgstr "Iyun"
+
+msgid "July"
+msgstr "Iyul"
+
+msgid "August"
+msgstr "Avgust"
+
+msgid "September"
+msgstr "Sentabr"
+
+msgid "October"
+msgstr "Oktabr"
+
+msgid "November"
+msgstr "Noyabr"
+
+msgid "December"
+msgstr "Dekabr"
+
+msgid "Show"
+msgstr "Ko‘rsatish"
+
+msgid "Hide"
+msgstr "Yashirish"
+
+msgid "Type into this box to filter down the list of selected %s."
+msgstr "Tanlangan %s ro‘yxatini filtrlash uchun ushbu maydonga yozing."
+
+msgid "Choose a date"
+msgstr "Sanani tanlang"
+
+msgid "Please select all choices you wish to choose, then click the arrow to move them to the other box."
+msgstr "Tanlamoqchi bo‘lgan yozuvlaringizni belgilang, so‘ng ularni boshqa maydonga o‘tkazish uchun yo‘nalish tugmasini bosing."
+
+msgid "(click to clear)"
+msgstr "(bekor qilish uchun bosing)"
+
+msgid "Choose %s by selecting them and then select the \"Choose\" arrow button."
+msgstr "%s yozuvlarini belgilang, so‘ng «Tanlash» yo‘nalish tugmasini bosing."
+
+msgid "Choose all %s"
+msgstr "Barcha %s yozuvlarini tanlash"
+
+msgid "Choose selected %s"
+msgstr "Belgilangan %s yozuvlarini tanlash"
+
+msgid "Remove %s by selecting them and then select the \"Remove\" arrow button."
+msgstr "%s yozuvlarini belgilang, so‘ng «Olib tashlash» yo‘nalish tugmasini bosing."
+
+msgid "Remove all %s"
+msgstr "Barcha %s yozuvlarini tanlovdan chiqarish"
+
+msgid "Remove selected %s"
+msgstr "Belgilangan %s yozuvlarini tanlovdan chiqarish"
+
+msgid "Monday"
+msgstr "Dushanba"
+
+msgid "Tuesday"
+msgstr "Seshanba"
+
+msgid "Wednesday"
+msgstr "Chorshanba"
+
+msgid "Thursday"
+msgstr "Payshanba"
+
+msgid "Friday"
+msgstr "Juma"
+
+msgid "Saturday"
+msgstr "Shanba"
+
+msgid "Sunday"
+msgstr "Yakshanba"
+
+msgid "%(sel)s of %(cnt)s selected"
+msgid_plural "%(sel)s of %(cnt)s selected"
+msgstr[0] "%(cnt)s tadan %(sel)s tasi tanlandi"
+
+msgid "Note: You are %s hour ahead of server time."
+msgid_plural "Note: You are %s hours ahead of server time."
+msgstr[0] "Eslatma: vaqtingiz server vaqtidan %s soat oldinda."
+
+msgid "Note: You are %s hour behind server time."
+msgid_plural "Note: You are %s hours behind server time."
+msgstr[0] "Eslatma: vaqtingiz server vaqtidan %s soat orqada."
+
+msgid "%s selected option not visible"
+msgid_plural "%s selected options not visible"
+msgstr[0] "Tanlangan %s ta variant filtr sabab ko‘rinmayapti"
+
+msgctxt "abbrev. month January"
+msgid "Jan"
+msgstr "Yan"
+
+msgctxt "abbrev. month February"
+msgid "Feb"
+msgstr "Fev"
+
+msgctxt "abbrev. month March"
+msgid "Mar"
+msgstr "Mar"
+
+msgctxt "abbrev. month April"
+msgid "Apr"
+msgstr "Apr"
+
+msgctxt "abbrev. month May"
+msgid "May"
+msgstr "May"
+
+msgctxt "abbrev. month June"
+msgid "Jun"
+msgstr "Iyn"
+
+msgctxt "abbrev. month July"
+msgid "Jul"
+msgstr "Iyl"
+
+msgctxt "abbrev. month August"
+msgid "Aug"
+msgstr "Avg"
+
+msgctxt "abbrev. month September"
+msgid "Sep"
+msgstr "Sen"
+
+msgctxt "abbrev. month October"
+msgid "Oct"
+msgstr "Okt"
+
+msgctxt "abbrev. month November"
+msgid "Nov"
+msgstr "Noy"
+
+msgctxt "abbrev. month December"
+msgid "Dec"
+msgstr "Dek"
+
+msgctxt "one letter Sunday"
+msgid "S"
+msgstr "Ya"
+
+msgctxt "one letter Monday"
+msgid "M"
+msgstr "Du"
+
+msgctxt "one letter Tuesday"
+msgid "T"
+msgstr "Se"
+
+msgctxt "one letter Wednesday"
+msgid "W"
+msgstr "Ch"
+
+msgctxt "one letter Thursday"
+msgid "T"
+msgstr "Pa"
+
+msgctxt "one letter Friday"
+msgid "F"
+msgstr "Ju"
+
+msgctxt "one letter Saturday"
+msgid "S"
+msgstr "Sh"
+
+msgctxt "abbrev. day Monday"
+msgid "Mon"
+msgstr "Du"
+
+msgctxt "abbrev. day Tuesday"
+msgid "Tue"
+msgstr "Se"
+
+msgctxt "abbrev. day Wednesday"
+msgid "Wed"
+msgstr "Ch"
+
+msgctxt "abbrev. day Thursday"
+msgid "Thur"
+msgstr "Pa"
+
+msgctxt "abbrev. day Friday"
+msgid "Fri"
+msgstr "Ju"
+
+msgctxt "abbrev. day Saturday"
+msgid "Sat"
+msgstr "Sh"
+
+msgctxt "abbrev. day Sunday"
+msgid "Sun"
+msgstr "Ya"

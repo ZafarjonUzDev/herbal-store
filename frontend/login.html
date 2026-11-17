@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" data-brand-description content="Toshkentdagi dorivor giyohlar va tabiiy mahsulotlar axborot katalogi.">
+  <meta name="theme-color" content="#254b3c">
+  <title data-page-title="Hisobingizga kiring">Hisobingizga kiring</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body data-page="login">
+  <a class="skip-link" href="#main">Asosiy qismga o‘tish</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Bosh sahifa" data-brand-home>
+        <span class="brand-mark" data-brand-logo aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M25 5C10 3 4 10 7 21c8 4 19 0 18-16Z"/><path d="M6 27 21 11"/></svg></span>
+        <span data-brand-name>Do‘kon</span>
+      </a>
+      <nav class="main-nav" aria-label="Asosiy navigatsiya">
+        <a href="/index.html" data-nav="catalog">Katalog</a>
+        <a href="/favorites.html" data-nav="favorites"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4Z"/></svg>Saqlanganlar</a>
+        <a class="nav-auth" href="/login.html" id="nav-auth-link">Kirish</a>
+        <button class="nav-auth" type="button" id="logout-button" hidden>Chiqish</button>
+      </nav>
+    </div>
+  </header>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="container noscript">Katalog va saqlangan mahsulotlar bilan ishlash uchun brauzeringizda JavaScriptni yoqing.</div></noscript>
+  <main id="main" class="container auth-main">
+    <section class="auth-story" aria-labelledby="story-title"><p class="eyebrow" data-brand-name>Do‘kon</p><h2 id="story-title">Yoqtirganlaringizni<br><em>birga saqlang.</em></h2><p>Hisobingiz orqali tanlagan mahsulotlaringizni saqlang va istalgan payt qaytib ko‘ring.</p><div class="auth-illustration" aria-hidden="true"><span></span><span></span><span></span></div><div class="auth-story-note">Sodda tanlov. Qulay katalog.</div></section>
+    <section class="auth-panel" aria-labelledby="page-title"><p class="eyebrow">QAYTGANINGIZDAN XURSANDMIZ</p><h1 id="page-title">Hisobingizga kiring</h1><p class="auth-intro" id="auth-context">Saqlangan mahsulotlaringizni ko‘rish uchun kiring.</p>
+      <form id="auth-form" method="post" action="/api/v1/auth/token/" novalidate>
+        <div class="form-field"><label for="username">Foydalanuvchi nomi</label><input id="username" name="username" type="text" autocomplete="username" maxlength="150" required aria-describedby="username-help username-error" autocapitalize="none" spellcheck="false"><p class="field-help" id="username-help">Katta va kichik harflar farqlanadi. Chetidagi bo‘sh joylar olib tashlanadi.</p><p class="field-error" id="username-error" hidden></p></div>
+        <div class="form-field"><label for="password">Parol</label><div class="password-control"><input id="password" name="password" type="password" autocomplete="current-password" required aria-describedby="password-help password-error"><button id="password-toggle" class="password-toggle" type="button" aria-controls="password" aria-pressed="false" aria-label="Parolni ko‘rsatish">Ko‘rsatish</button></div><p class="field-help" id="password-help">Hisob yaratganingizda tanlagan parolingizni kiriting.</p><p class="field-error" id="password-error" hidden></p></div>
+        <p id="form-message" class="form-message" role="alert" tabindex="-1" hidden></p>
+        <button type="submit" class="button button-primary auth-submit" id="auth-submit">Kirish <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="auth-switch">Hali hisobingiz yo‘qmi? <a class="text-link" id="switch-auth" href="/register.html">Ro‘yxatdan o‘tish</a></p>
+      <a id="cancel-auth" class="button button-secondary back-link auth-cancel" href="/index.html"><span aria-hidden="true">←</span> Bekor qilish va katalogga qaytish</a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-brand"><span data-brand-name>Do‘kon</span> <span>· Toshkent</span></span>
+    </div>
+  </footer>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

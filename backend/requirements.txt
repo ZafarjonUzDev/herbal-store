@@ -1,0 +1,11 @@
+# Phase 1: Django foundation. Versiyalar Python 3.13 va Django 5.2 LTS uchun pin qilingan.
+Django==5.2.18
+djangorestframework==3.16.1
+djangorestframework-simplejwt==5.5.1
+psycopg[binary]==3.3.6
+python-dotenv==1.2.2
+# ImageField va Django Admin rasm tekshiruvi uchun
+Pillow==11.3.0
+# Nginx ortida Django WSGI va arxitekturadagi OpenAPI/Swagger uchun
+gunicorn==26.2.0
+drf-spectacular==0.30.0

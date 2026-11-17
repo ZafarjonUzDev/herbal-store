@@ -1,0 +1,46 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+
+# Mahalliy / production maxfiy konfiguratsiyalar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.secrets/
+secrets/
+
+# Database, backup va runtime fayllar
+*.sqlite3
+*.sqlite3-journal
+*.dump
+*.backup
+backups/
+media/
+staticfiles/
+logs/
+*.log
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artefaktlar
+dist/
+build/
+node_modules/
