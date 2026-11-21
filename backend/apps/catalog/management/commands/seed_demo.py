@@ -51,6 +51,13 @@ def demo_image(color):
 
 class Command(BaseCommand):
     help = 'DEBUG=True lokal muhit uchun 3 kategoriya va 6 demo mahsulot yaratadi.'
+    
+    def add_arguments(self, parser): 
+        parser.add_argument(
+            '--allow-prod',
+            action='store_true',
+            help='DEBUG=False muhitida ham demo katalog yaratishga ruxsat berish.',
+        )
 
     def handle(self, *args, **options):
         if not settings.DEBUG:

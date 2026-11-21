@@ -36,6 +36,7 @@ def env_positive_int(name: str, default: int) -> int:
 
 
 DEBUG = env_bool('DJANGO_DEBUG', False)
+ENABLE_SWAGGER = env_bool('DJANGO_ENABLE_SWAGGER', DEBUG) # Swagger docs faqat DEBUG=True bo'lsa ishlaydi
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', '')
 if not SECRET_KEY or SECRET_KEY.startswith('CHANGE_ME'):
     raise ImproperlyConfigured('Provide a real DJANGO_SECRET_KEY via environment/.env')
@@ -138,10 +139,12 @@ SIMPLE_JWT = {
 }
 
 # Browser auth POST endpointlari CSRF tekshiruvini view dispatch'da bajaradi.
+# HTTPS ulanmaguncha oddiy HTTP IP orqali ham cookie ishlashi uchun ruxsat bayrog‘i.
+ALLOW_INSECURE_COOKIES = env_bool('DJANGO_ALLOW_INSECURE_COOKIES', False)
 CSRF_FAILURE_VIEW = 'apps.accounts.views.auth_csrf_failure'
 CSRF_COOKIE_SAMESITE = 'Strict'
-CSRF_COOKIE_SECURE = not DEBUG
-SESSION_COOKIE_SECURE = not DEBUG
+CSRF_COOKIE_SECURE = not DEBUG and not ALLOW_INSECURE_COOKIES
+SESSION_COOKIE_SECURE = not DEBUG and not ALLOW_INSECURE_COOKIES
 
 LANGUAGE_CODE = 'uz'
 LANGUAGES = [('uz', 'O‘zbekcha'), ('ru', 'Русский')]

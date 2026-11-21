@@ -20,7 +20,7 @@ urlpatterns = [
     path('api/v1/', include('apps.favorites.urls')),
 ]
 
-if settings.DEBUG:
+if settings.DEBUG or settings.ENABLE_SWAGGER:
     urlpatterns += [
         path('api/schema/', SpectacularAPIView.as_view(
             permission_classes=(AllowAny,), authentication_classes=(),

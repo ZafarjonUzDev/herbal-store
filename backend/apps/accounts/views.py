@@ -58,7 +58,7 @@ def set_refresh_cookie(response, refresh):
         value=str(refresh),
         max_age=int(settings.SIMPLE_JWT['REFRESH_TOKEN_LIFETIME'].total_seconds()),
         path=AUTH_COOKIE_PATH,
-        secure=not settings.DEBUG,
+        secure=not settings.DEBUG and not settings.ALLOW_INSECURE_COOKIES,
         httponly=True,
         samesite='Strict',
     )
